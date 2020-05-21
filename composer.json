@@ -14,12 +14,21 @@
       "homepage": "https://github.com/voksiv"
     }
   ],
+  "config": {
+    "github-protocols": ["https"]
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Dezzpil/stringstream.git",
+      "no-api": true
+    }
+  ],
   "require": {
     "php": ">=7.0",
-    "ltd-beget/stringstream" : "~1.0.2"
+    "ltd-beget/stringstream" : "dev-master"
   },
   "require-dev": {
-    "theseer/phpdox": "0.8.*",
     "phpunit/phpunit": "^5.7",
     "tideways/profiler": "2.0.*"
   },
